@@ -42,6 +42,12 @@ NOTICE: ready to handle connections
 
 打开浏览器访问：`http://localhost/8088`，查看页面是否正常显示。
 
+![](Xnip2024-01-27_22-52-46.png)
+
+到此为止，你已经成功启动了容器，可以前往工作目录 `./php/www` 开始编码了！
+
+
+
 ## 操作说明
 
 ### 服务启动

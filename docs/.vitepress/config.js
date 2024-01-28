@@ -3,7 +3,7 @@ export default {
     // 站点级选项
     title: 'Documents by xt',
     description: 'Some documents',
-  
+    base: '/xtdoc/',
     themeConfig: {
         sidebar: [
             {
