@@ -10,7 +10,35 @@ export default {
               text: '文档导航',
               items: [
                 { text: '首页', link: '/' },
-                { text: 'wc-pr-docker 文档', link: '/wcprdocker/index.html' },
+                {
+                  text: 'wc-pr-docker 文档',
+                  items: [
+                    {
+                      text: '概述',
+                      link: '/wcprdocker/index.html'
+                    },
+                    {
+                      text: '环境准备',
+                      link: '/wcprdocker/env.html'
+                    },
+                    {
+                      text: '快速开始',
+                      link: '/wcprdocker/startup.html'
+                    },
+                    {
+                      text: '操作说明',
+                      link: '/wcprdocker/manual.html'
+                    },
+                    {
+                      text: '更多配置',
+                      link: '/wcprdocker/moreconf.html'
+                    },
+                    {
+                      text: '细节',
+                      link: '/wcprdocker/detail.html'
+                    }
+                  ]
+                },
               ]
             }
         ]
