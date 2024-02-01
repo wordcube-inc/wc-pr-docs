@@ -22,12 +22,12 @@ export default {
                       link: '/wcprdocker/env.html'
                     },
                     {
-                      text: '快速开始',
-                      link: '/wcprdocker/startup.html'
+                      text: 'Windows 快速开始',
+                      link: '/wcprdocker/startup_win.html'
                     },
                     {
-                      text: '操作说明',
-                      link: '/wcprdocker/manual.html'
+                      text: 'MacOS 快速开始',
+                      link: '/wcprdocker/startup_mac.html'
                     },
                     {
                       text: '更多配置',
@@ -36,36 +36,7 @@ export default {
                     {
                       text: '细节',
                       link: '/wcprdocker/detail.html'
-                    }
-                  ]
-                },
-                {
-                  text: '新 wc-pr-docker 文档',
-                  items: [
-                    {
-                      text: '概述',
-                      link: '/newwcprdocker/index.html'
-                    },
-                    {
-                      text: '环境准备',
-                      link: '/newwcprdocker/env.html'
-                    },
-                    {
-                      text: '快速开始',
-                      link: '/newwcprdocker/startup.html'
-                    },
-                    {
-                      text: '操作说明',
-                      link: '/newwcprdocker/manual.html'
-                    },
-                    {
-                      text: '更多配置',
-                      link: '/newwcprdocker/moreconf.html'
-                    },
-                    {
-                      text: '细节',
-                      link: '/newwcprdocker/detail.html'
-                    }
+                    }              
                   ]
                 },
               ]
