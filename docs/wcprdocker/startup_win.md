@@ -8,6 +8,8 @@ $ git clone https://github.com/wordcube-inc/wc-pr-api-docker.git
 
 ## 配置项目
 
+首先进入 `./wc-repo/wc-pr-repo` 或 `./wc-repo/wc-tr-repo`，将你的项目 clone 进对应的目录中，然后配置 `.env`。
+
 由于[启动步骤](detail.html#php-dockerfile)，你需要在启动之前完成项目的 `.env` 配置。
 
 ## 启动
