@@ -15,28 +15,24 @@ export default {
                   items: [
                     {
                       text: '概述',
-                      link: '/wcprdocker/index.html'
+                      link: '/wc-pr-docker/intro.html'
                     },
                     {
-                      text: '环境准备',
-                      link: '/wcprdocker/env.html'
+                      text: '支持的 repo',
+                      link: '/wc-pr-docker/repo.html'
                     },
                     {
-                      text: 'Windows 快速开始',
-                      link: '/wcprdocker/startup_win.html'
+                      text: '快速开始',
+                      link: '/wc-pr-docker/startup.html'
                     },
                     {
-                      text: 'MacOS 快速开始',
-                      link: '/wcprdocker/startup_mac.html'
+                      text: '后续配置',
+                      link: '/wc-pr-docker/afterstartup.html'
                     },
                     {
-                      text: '更多配置',
-                      link: '/wcprdocker/moreconf.html'
-                    },
-                    {
-                      text: '细节',
-                      link: '/wcprdocker/detail.html'
-                    }              
+                      text: '更多细节',
+                      link: '/wc-pr-docker/detail.html'
+                    }
                   ]
                 },
               ]
