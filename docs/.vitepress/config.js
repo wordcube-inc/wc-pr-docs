@@ -22,6 +22,10 @@ export default {
                       link: '/wc-pr-docker/repo.html'
                     },
                     {
+                      text: '环境准备',
+                      link: '/wc-pr-docker/env.html'
+                    },
+                    {
                       text: '快速开始',
                       link: '/wc-pr-docker/startup.html'
                     },
