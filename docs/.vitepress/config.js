@@ -5,6 +5,9 @@ export default {
     description: 'Some documents',
     base: '/xtdoc/',
     themeConfig: {
+        search: {
+          provider: 'local'
+        },
         sidebar: [
             {
               text: '文档导航',
