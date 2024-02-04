@@ -10,3 +10,7 @@
 |  wc-translate      |   [https://github.com/wordcube-inc/wc-pr-api/wc-translate](https://github.com/wordcube-inc/wc-pr-api/wc-translate)     |   7.4      |    9994  |
 
 除此之外，还开放了一个 mysql 服务，端口是 `9990`，你可以在宿主机上使用 mysql 可视化工具来访问它。mysql 服务的用户名和密码可以在 [`docker-compose.yml`](https://github.com/wordcube-inc/wc-pr-docker/blob/main/docker-compose.yml) 中查看。
+
+整个 docker 的工作流程可以归纳为下图
+
+![](img/img1.png)
