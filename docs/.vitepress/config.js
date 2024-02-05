@@ -1,49 +1,32 @@
-// .vitepress/config.js
+import zh, {search as searchZh} from "./config/zh"
+import en from "./config/en"
+
+
 export default {
-    // 站点级选项
-    title: 'Documents by xt',
-    description: 'Some documents',
-    base: '/xtdoc/',
+    title: 'WordCube 文档站',
+    description: 'Some documents of WordCube Co.',
+    base: '/wc-pr-docs/',
+    locales: {
+        root: {
+          label: '简体中文',
+          lang: 'zh_cn',
+          link: '/zh/',
+          ...zh
+        },
+        en: {
+          label: 'English(United States)',
+          lang: 'en_us',
+          link: '/en/',
+          ...en
+        }
+    },
     themeConfig: {
         search: {
-          provider: 'local'
-        },
-        sidebar: [
-            {
-              text: '文档导航',
-              items: [
-                { text: '首页', link: '/' },
-                {
-                  text: 'wc-pr-docker 文档',
-                  items: [
-                    {
-                      text: '概述',
-                      link: '/wc-pr-docker/intro.html'
-                    },
-                    {
-                      text: '支持的 repo',
-                      link: '/wc-pr-docker/repo.html'
-                    },
-                    {
-                      text: '环境准备',
-                      link: '/wc-pr-docker/env.html'
-                    },
-                    {
-                      text: '快速开始',
-                      link: '/wc-pr-docker/startup.html'
-                    },
-                    {
-                      text: '后续配置',
-                      link: '/wc-pr-docker/afterstartup.html'
-                    },
-                    {
-                      text: '更多细节',
-                      link: '/wc-pr-docker/detail.html'
-                    }
-                  ]
-                },
-              ]
+            provider: 'local',
+            options: {
+                locales: {...searchZh}
             }
-        ]
+        },
+        
     }
   }
