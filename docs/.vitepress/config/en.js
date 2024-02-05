@@ -1,11 +1,12 @@
 export default {
+    title: 'WordCube Documents',
     themeConfig: {
         sidebar: [
             {
-                text: '文档导航',
+                text: 'Documents',
                 items: [
-                    { text: '首页', link: '/' },
-                    { text: '关于 wc-pr-doc', link: '/about/' },
+                    { text: 'Homepage', link: '/en/' },
+                    { text: 'About wc-pr-doc', link: '/en/about/' },
                     {
                         text: 'wc-pr-docker doc.',
                         items: [

@@ -3,7 +3,6 @@ import en from "./config/en"
 
 
 export default {
-    title: 'WordCube 文档站',
     description: 'Some documents of WordCube Co.',
     base: '/wc-pr-docs/',
     locales: {

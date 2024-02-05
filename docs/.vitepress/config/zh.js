@@ -1,4 +1,6 @@
+
 export default {
+    title: 'WordCube 文档站',
     themeConfig: {
         sidebar: [
             {
