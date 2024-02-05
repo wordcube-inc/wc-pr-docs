@@ -6,7 +6,7 @@ hero:
   text: 
   tagline: Document site of WordCube Co.
   image:
-    src: common/img/document.png
+    # src: common/img/document.png
     alt: VitePress
   actions:
     - theme: brand

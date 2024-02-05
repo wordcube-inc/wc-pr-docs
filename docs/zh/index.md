@@ -6,7 +6,7 @@ hero:
   text: 
   tagline: 在线协作，信息共享
   image:
-    src: common/img/document.png
+    # src: common/img/document.png
     alt: VitePress
   actions:
     - theme: brand
