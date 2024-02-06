@@ -17,3 +17,5 @@ This site is built with [VitePress](https://vitepress.dev/), you can write docum
 2. Write content according to [VitePress](https://vitepress.dev/)
 3. If you need to modify the directory on the left, please edit `docs/.vitepress/config.js`
 4. Commit and push your code to github，github action will build your code to html after a while, and your content will automatically update on the [documentation page](https://wordcube-inc.github.io/xtdoc/)
+
+\> [Go to documents of wc-pr-docker](/zh/wc-pr-docker/intro.html)

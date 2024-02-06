@@ -14,7 +14,7 @@ hero:
       link: about/index.html
     - theme: alt
       text: 在 GitHub 参与本文档
-      link: https://github.com/wordcube-inc/wc-pr-doc
+      link: https://github.com/wordcube-inc/wc-pr-docs
 features:
   - icon: 📒
     title: 专注内容

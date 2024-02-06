@@ -17,3 +17,5 @@ next: false
 2. 按照 [VitePress 的文档](https://vitepress.dev/) 来编写内容
 3. 如果需要加入左边的文档目录，请修改 `docs/.vitepress/config.js`
 4. 提交并 push 到 github，稍后 github action 会自动构建完毕，你的内容会自动更新到 [文档地址](https://wordcube-inc.github.io/xtdoc/)。
+
+\> [前往 wc-pr-docker 的文档](/zh/wc-pr-docker/intro.html)

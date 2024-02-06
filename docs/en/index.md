@@ -14,7 +14,7 @@ hero:
       link: about/index.html
     - theme: alt
       text: Edit this page on GitHub
-      link: https://github.com/wordcube-inc/wc-pr-doc
+      link: https://github.com/wordcube-inc/wc-pr-docs
 features:
   - icon: 📒
     title: Focus on content
