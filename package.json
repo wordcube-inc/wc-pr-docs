@@ -9,6 +9,7 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "postman:fetch": "curl https://api.postman.com/collections/17286891-5d3019f5-e708-4166-9f70-e6ddd63c0a0a?access_key=PMAT-01HQ5AJXHW74V2SY7BEG14FEP7 > docs/postman-api/data.json"
   }
 }

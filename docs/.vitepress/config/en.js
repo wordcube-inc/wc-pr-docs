@@ -7,6 +7,7 @@ export default {
                 items: [
                     { text: 'Homepage', link: '/en/' },
                     { text: 'About wc-pr-doc', link: '/en/about/' },
+                    { text: 'Postman API Document', link: '/postman-api/' },
                     {
                         text: 'wc-pr-docker doc.',
                         items: [

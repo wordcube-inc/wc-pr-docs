@@ -8,6 +8,7 @@ export default {
                 items: [
                     { text: '首页', link: '/zh/' },
                     { text: '关于 wc-pr-doc', link: '/zh/about/' },
+                    { text: 'Postman API 文档', link: '/postman-api/' },
                     {
                         text: 'wc-pr-docker 文档',
                         items: [
