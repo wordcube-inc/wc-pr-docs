@@ -69,6 +69,11 @@ onMounted(async () => {
     </div>
 </div>
 </template>
+<style>
+.VPNavBarTranslations {
+    display: none !important;
+}
+</style>
 <style scoped>
 .document-container {
     display: flex;
